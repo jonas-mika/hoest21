@@ -1,10 +1,10 @@
 with open('3.in', 'w') as outfile:
-    b, h = 19, 19  # width, height
+    b, h = 5, 5  # width, height
     outfile.write(f'{b} {h}\n')
 
-    c_x = [4, 14, 4, 14, 10]
-    c_y = [4, 4, 14, 14, 0]
-    r = [5, 5, 5, 5, 1]
+    c_x = [0, 4, 0, 4]
+    c_y = [0, 4, 4, 0]
+    r = [1, 1, 1, 1]
 
     L = [['.' for _ in range(b)] for y in range(h)]
 
